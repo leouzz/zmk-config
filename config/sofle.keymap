@@ -30,7 +30,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_Colemak {
             // ------------------------------------------------------------------------------------------------------------
             // |  `    |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
             // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BKSPC |
@@ -102,6 +102,16 @@
                            &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI            &none            &none            &none                            &none   &none   &none   &none   &none   &none
                            &none            &none            &none            &none            &none            &none  &rgb_ug RGB_TOG   &none   &none   &none   &none   &none   &none   &none
                                                              &none            &none            &none            &none            &none   &none   &none   &none   &none   &none
+            >;
+        };
+
+        QWERTY {
+            bindings = <
+ &kp undefined  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp     &kp
+           &kp           &kp           &kp           &kp           &kp           &kp                           &kp           &kp           &kp           &kp     &kp     &kp
+           &kp           &kp           &kp           &kp           &kp           &kp                           &kp           &kp           &kp           &kp     &kp     &kp
+           &kp           &kp           &kp           &kp           &kp           &kp     &kp     &kp           &kp           &kp           &kp           &kp     &kp     &kp
+                                       &kp           &kp           &kp           &kp     &kp     &kp           &kp           &kp           &kp           &kp
             >;
         };
     };
