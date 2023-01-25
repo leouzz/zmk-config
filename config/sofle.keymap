@@ -107,11 +107,11 @@
 
         QWERTY {
             bindings = <
- &kp undefined  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp     &kp
-           &kp           &kp           &kp           &kp           &kp           &kp                           &kp           &kp           &kp           &kp     &kp     &kp
-           &kp           &kp           &kp           &kp           &kp           &kp                           &kp           &kp           &kp           &kp     &kp     &kp
-           &kp           &kp           &kp           &kp           &kp           &kp     &kp     &kp           &kp           &kp           &kp           &kp     &kp     &kp
-                                       &kp           &kp           &kp           &kp     &kp     &kp           &kp           &kp           &kp           &kp
+ &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                         &kp N6     &kp N7     &kp N8    &kp N9         &kp N0      &none
+   &kp ESC   &kp Q     &kp W     &kp F      &kp P   &kp B                          &kp J      &kp L      &kp U     &kp Y  &kp SEMICOLON   &kp BSPC
+   &kp TAB   &kp A     &kp R     &kp S      &kp T   &kp G                          &kp M      &kp N      &kp E     &kp I          &kp O    &kp SQT
+ &kp LSHFT   &kp Z     &kp X     &kp C      &kp D   &kp V  &kp C_MUTE      &none   &kp K      &kp H  &kp COMMA   &kp DOT       &kp FSLH  &kp RSHFT
+                    &kp LGUI  &kp LALT  &kp LCTRL   &mo 1     &kp RET  &kp SPACE   &mo 2  &kp RCTRL   &kp RALT  &kp RGUI
             >;
         };
     };
